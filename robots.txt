@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow:
-
-#sitemap
-
-Sitemap: https://nayrolf31.github.io/Nayrolf31-P04_La_Panthere_florian_maugan_05062022-/
