@@ -35,7 +35,7 @@ em {
 }
 
 .two{
-    width: 50%;
+    width: 54%;
 }
 
 a:hover {
@@ -110,6 +110,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
+    display: none;
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -811,10 +812,6 @@ h4 {
 .black {
     color: #000000 !important;
 }
-
-.white {
-    color:#FFFFFF!important;
-}
  
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -932,6 +929,25 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
+    #social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #icon_social{
+        color: #FFF !important;
+    }
+
+    .social{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        display:flex ;
+        justify-content: space-around;
+    }
+
     h1,
     h2,
     h3,
