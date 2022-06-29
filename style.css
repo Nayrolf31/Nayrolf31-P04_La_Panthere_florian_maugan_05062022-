@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a img{
+    width: 345px;
+    height: 345px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -772,8 +777,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 345px;
-    height: auto;
 }
 
 .portfolio-row {
@@ -898,6 +901,7 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    
     .container {
         width: 100%;
     }
